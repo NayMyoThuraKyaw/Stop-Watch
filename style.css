@@ -1,0 +1,106 @@
+body
+{
+    background-color: rgb(17, 1, 82);
+    align-items: center;
+    justify-content: center;
+
+    /* margin-top: 70px; */
+    
+}
+
+#watchFace
+{
+    color: rgb(158, 107, 12);
+    padding-top: 40px;
+    display: flex;
+    font-size:100px;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Btns
+{
+    display: flex;
+    justify-content: center;
+}
+
+#startBtn
+{
+    background-color:#2b5bc4 ;
+    color: rgba(5, 223, 223, 0.897);
+    width: 65px;
+    height: 25px;
+    border-radius: 8px;
+    border: white;
+    margin: 10px 5px 10px 0px;
+}
+
+
+#stopBtn
+{
+    background-color:#12adcc ;
+    color:aqua;
+    width: 65px;
+    height: 25px;
+    border-radius: 8px;
+    border: white;
+    margin: 10px 5px 10px 5px;
+}
+#restId
+{
+    background-color:#9C27B0 ;
+    color: aqua;
+    width: 65px;
+    height: 25px;
+    border-radius: 8px;
+    border: white;
+    margin: 10px 5px 10px 5px;
+}
+#flagId
+{
+    background-color:#673AB7 ;
+    color: aqua;
+    width: 65px;
+    height: 25px;
+    border-radius: 8px;
+    border: white;
+    margin: 10px 0px 10px 5px;
+}
+
+#flagDisplay
+{
+    display: flex;
+    flex-direction: row;
+    flex-flow:wrap;
+    justify-content: center;
+}
+
+#list
+{
+    display: inline-block;
+    background-color: rgb(24, 84, 133);
+    color: rgb(220, 220, 220);
+    padding: 5px;
+    margin: 3px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    padding-top:10px;
+
+}
+
+#flagHeader
+{
+    display: none;
+    margin-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    color: antiquewhite;
+}
